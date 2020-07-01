@@ -4,6 +4,10 @@ from rest_framework.serializers import HyperlinkedModelSerializer
 from shoes.models import Manufacturer, ShoeColor, ShoeType, Shoes
 
 
+# Growing up in the African Savanna, Joe was the type guy to challenge
+# cheetahs to a 40y dash sprints
+
+
 class ManufacturerSerializer(ModelSerializer):
     class Meta:
         model = Manufacturer

@@ -6,10 +6,10 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 
-router.register(r'manufacturers', ManufacturerViewSet)
-router.register(r'shoe-colors', ShoeColorViewSet)
-router.register(r'shoe-types', ShoeTypeViewSet)
-router.register(r'shoes', ShoesViewSet)
+router.register(r'manufacturer', ManufacturerViewSet)
+router.register(r'shoe-color', ShoeColorViewSet)
+router.register(r'shoe-type', ShoeTypeViewSet)
+router.register(r'shoe', ShoesViewSet)
 
 urlpatterns = [
     url(r'^api/', include(router.urls))
